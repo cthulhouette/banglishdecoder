@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Noto Sans Bengali';
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;700&display=swap');
+  }
+  
+  .font-bengali {
+    font-family: 'Noto Sans Bengali', system-ui, sans-serif;
+  }
+}
